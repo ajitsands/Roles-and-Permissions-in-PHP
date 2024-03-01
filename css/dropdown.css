@@ -1,0 +1,42 @@
+/*Below code for Dropdown Message */
+    
+    #dropdownContent {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%; /* Set width to 90% of the viewport width */
+        max-width: 400px; /* Set maximum width to 400px */
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 9999; /* Set a high z-index value */
+        border-radius: 10px; /* Add rounded corners */
+        border-top-left-radius: 0; /* Remove top-left border radius */
+        border-top-right-radius: 0; /* Remove top-right border radius */
+        color: white; /* Text color */
+        
+}
+
+
+
+/* Define different background colors for different statuses */
+.success {
+  background-color: #4C9E04;
+  color:white;
+  
+}
+
+.error {
+  background-color: #FE7343;
+  color:white;
+}
+.info {
+  background-color: #0076D8;
+  color:white;
+}
+
+.other {
+  background-color: #DDAB00;
+  color: white;
+}
